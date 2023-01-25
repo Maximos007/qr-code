@@ -1,0 +1,38 @@
+.card {
+  width: 275px;
+  height: 412px;
+  border-radius: 1rem;
+  background-color: var(--white-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  padding: .8rem;
+}
+
+picture img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem
+}
+
+.text-info {
+  text-align: center;
+}
+
+.text-info h2 {
+  color: var(--Dark-blue);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 9% 9%;
+}
+
+.text-info p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--Grayish-blue);
+  margin: 5% 9%;
+}
+
